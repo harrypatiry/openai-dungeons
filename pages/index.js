@@ -1,4 +1,5 @@
-import {Html, Head} from "next/document";
+import Head from "next/head";
+import Html from "next/document";
 import { useState } from "react";
 import styles from "./index.module.css";
 
@@ -33,9 +34,8 @@ export default function App() {
     <Html lang="en">
       <div>
         <Head>
-          <title>OpenAI RPG</title>
+          <title>OpenAI DnD</title>
         </Head>
-
         <main className={styles.main}>
           <h3>Dungeons and Dragons Generator</h3>
           <form onSubmit={onSubmit}>
