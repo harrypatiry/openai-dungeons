@@ -37,6 +37,7 @@ export default function App() {
 
       <main className={styles.main}>
         <h3>Dungeons and Dragons Generator</h3>
+        <label for="Name"></label>
         <form onSubmit={onSubmit}>
           <input
             type="text"
